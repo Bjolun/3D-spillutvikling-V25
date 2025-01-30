@@ -1,10 +1,12 @@
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
+// Bytt SimpleMovement til navnet på klassen din da du opprettet den
 public class SimpleMovement : MonoBehaviour
 {
     [SerializeField] private float movementSpeed;
 
+    // Bytt PlayerControls til navnet på klassen som ble generert av input actions asseten i ditt prosjekt
     private PlayerControls playerControls;
 
     private void Awake()
