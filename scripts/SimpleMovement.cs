@@ -26,6 +26,7 @@ public class SimpleMovement : MonoBehaviour
 
     void Update()
     {
+        // Endre Player1.Move til navnet på Action mappet (Player1) og Action (Move)
         Vector2 inputVector = playerControls.Player1.Move.ReadValue<Vector2>();
         Vector3 movementVector = new Vector3(inputVector.x, 0f, inputVector.y);
         
